@@ -1,38 +1,33 @@
 <!--  ----------------------------------------------------------------------  -->
-<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
-<!--  If necessary, please modify the charset parameter to specify the        -->
-<!--  character set of your HTML page.                                        -->
+<!--  REMARQUE : Ajoutez l'élément suivant <META> à votre page <HEAD>. Si     -->
+<!--  nécessaire, modifiez le paramètre charset pour spécifier le jeu de      -->
+<!--  caractères de votre page HTML.                                          -->
 <!--  ----------------------------------------------------------------------  -->
 
 <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 
 <!--  ----------------------------------------------------------------------  -->
-<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  REMARQUE : Ajoutez l'élément suivant <FORM> à votre page.               -->
 <!--  ----------------------------------------------------------------------  -->
 
 <form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DKG000001GFUY" method="POST">
 
 <input type=hidden name="oid" value="00DKG000001GFUY">
-<input type=hidden name="retURL" value="https://www.google.com">
-<!--  ----------------------------------------------------------------------  -->
-<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
-<!--  these lines if you wish to test in debug mode.                          -->
- <input type="hidden" name="debug" value=1>                            
-  <input type="hidden" name="debugEmail"                                  
-value="reine.elhaber@softsales-consulting.com">                        
-<!--  ----------------------------------------------------------------------  -->
+<input type=hidden name="retURL" value="https://www.simavil.com/contact-plan-saint-malot-rennes-bretagne/">
+<input type=hidden name="lead_source" value="Site web disez-kergoat">
 
-<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+<label for="last_name">Nom</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
 
-<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+<label for="company">Société</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
 
-<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+<label for="email">Adresse e-mail</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
-<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+<label for="mobile">Téléphone mobile</label><input  id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
 
-Sujet:<input  id="00NKG0000025umm" maxlength="100" name="00NKG0000025umm" size="20" type="text" /><br>
+Sujet :<input  id="00NKG0000025umm" maxlength="40" name="00NKG0000025umm" size="20" type="text" /><br>
 
 <label for="description">Description</label><textarea name="description"></textarea><br>
+
 
 <input type="submit" name="submit">
 
